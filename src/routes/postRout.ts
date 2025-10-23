@@ -1,7 +1,7 @@
 // routes/postRoutes.ts
 import express from "express";
 import Post from "../models/Post";
-import { protect, AuthRequest } from "../middleware/authMiddleware";
+import { protect, AuthRequest } from "../middleware/authMIddleware";
 import multer from "multer";
 import path from "path";
 
